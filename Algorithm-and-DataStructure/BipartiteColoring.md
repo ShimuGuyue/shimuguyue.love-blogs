@@ -2,8 +2,8 @@
 title: 二分图染色
 description: 染色法判定二分图
 category: 数据结构和算法
-tags: [图论, 二分图, 二分图染色]
-update_time: 2026-07-24
+tags: [DFS-BFS, 二分图, 二分图染色, 图论]
+update_time: 2026-07-25
 file_path: Algorithm-and-DataStructure/BipartiteColoring
 ---
 
