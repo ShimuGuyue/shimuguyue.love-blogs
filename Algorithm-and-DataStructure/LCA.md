@@ -2,8 +2,8 @@
 title: 最近公共祖先
 description: 查询树上任意两点公共祖先中的最近节点
 category: 数据结构和算法
-tags: [图论, 树论, 最近公共祖先, 倍增]
-update_time: 2026-07-25
+tags: [倍增, 图论, 最近公共祖先, 树论]
+update_time: 2026-07-26
 file_path: Algorithm-and-DataStructure/LCA
 ---
 
