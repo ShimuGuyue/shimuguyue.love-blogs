@@ -3,7 +3,7 @@ title: 二分图染色
 description: 染色法判定二分图
 category: 数据结构和算法
 tags: [DFS-BFS, 二分图, 二分图染色, 图论]
-update_time: 2026-07-26
+update_time: 2026-07-27
 file_path: Algorithm-and-DataStructure/BipartiteColoring
 ---
 
@@ -22,10 +22,8 @@ file_path: Algorithm-and-DataStructure/BipartiteColoring
 >   图中不存在奇数环和图是二分图互为**充要条件**。
 
 ```cpp
-// 默认使用邻接表
-auto judge(vector<vector<int>>& edges) -> bool
+auto judge() -> bool
 {
-    int n = edges.size();
     vector<int> colors(n);
     queue<int> q;
     // 不连通的图要对每一块分别染色
@@ -40,6 +38,7 @@ auto judge(vector<vector<int>>& edges) -> bool
         {
             int u = q.front();
             q.pop();
+            // 默认使用邻接表存图
             for (int v : edges[u])
             {
                 // 相邻两个节点同色说明判定失败
