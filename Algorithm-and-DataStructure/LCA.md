@@ -23,16 +23,26 @@ file_path: Algorithm-and-DataStructure/LCA
 
 对于同意深度和寻找祖先两次操作的爬升次数，可以使用**倍增**法进行优化。
 
-首先要预处理出从每个节点出发向上跳跃 $2$ 的若干次幂次之后可到达的祖先节点。
+首先要预处理出从每个节点出发向上爬升 $2$ 的若干次幂次之后可到达的祖先节点。
+
+
+对于数组 `ups`，`ups[i][j]`表示从第 $i$ 个节点向上爬升 $2$ 的 $j$ 次幂到达的祖先节点，其中 $j$ 能取到的最大值为 $\lfloor \log_2(depth_max - 1) \rfloor$。方便起见第二维长度 $m$ 一般取 $\lfloor \log_2(n) \rfloor + 1$。
 
 处理过程中，若每个节点的**深度信息**尚不得知，可一并处理。
 
 ```cpp
+// depth[i] 为节点 i 的深度
+
+vector<int> depth(n);
+// ups[i][j] 
+// ups 第二维的大小 m 为倍增表中 2 的最大幂次，一般设为 floor(log2(n)) + 1
+vector<vector<int>> ups;
+
 void build(int u, int father, int depth)
 {
-    depths[u] = deepth;
+    depths[u] = depth;
     ups[u][0] = father;
-    for (int i = 1; i < m; ++i) // m 是倍增表中 2 的最大幂次，一般设为 ceil(log2(n)) + 1
+    for (int i = 1; i < m; ++i) 
     {
         ups[u][i] = ups[ups[u][i - 1]][i - 1];
     }
@@ -40,7 +50,7 @@ void build(int u, int father, int depth)
     {
         if (v == father)
             continue;
-        build(v, u, deepth + 1);
+        build(v, u, depth + 1);
     }
 }
 
@@ -49,11 +59,12 @@ build(root, root, 1); // 将根节点的父节点设为本身，深度设为 1
 
 预处理完成即可利用已有信息进行快速计算。
 
-统一节点深度时，先计算出两节点间深度的差距。根据**二进制分解定理**，较低节点向上跳跃对应的距离。
+统一节点深度时，先计算出两节点间深度的差距。根据**二进制分解定理**，较低节点快速向上跳跃到目标深度。
 
 ```cpp
 int calc(int u, int v)
 {
+    // 令 u 为深度较大点
     if (depths[u] < depths[v])
         swap(u, v);
     int dif = depths[u] - depths[v];
@@ -62,7 +73,6 @@ int calc(int u, int v)
         if (dif >> i & 1)
             u = ups[u][i];
     }
-
     if (u == v)
         return u;
     /*... ⬇️后续寻找 LCA 的代码 ...*/
