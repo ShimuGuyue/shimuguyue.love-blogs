@@ -3,7 +3,7 @@ title: 二分图染色
 description: 染色法判定二分图
 category: 数据结构和算法
 tags: [DFS-BFS, 二分图, 二分图染色, 图论]
-update_time: 2026-07-27
+update_time: 2026-08-12
 file_path: Algorithm-and-DataStructure/BipartiteColoring
 ---
 
