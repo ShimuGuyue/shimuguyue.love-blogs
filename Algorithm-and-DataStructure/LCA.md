@@ -2,8 +2,8 @@
 title: 最近公共祖先
 description: 查询树上任意两点公共祖先中的最近节点
 category: 数据结构和算法
-tags: [倍增, 图论, 最近公共祖先, 树论]
-update_time: 2026-07-27
+tags: [倍增, 图论, 最近公共祖先, 树论, LCA]
+update_time: 2026-08-12
 file_path: Algorithm-and-DataStructure/LCA
 ---
 
@@ -34,7 +34,7 @@ file_path: Algorithm-and-DataStructure/LCA
 // depth[i] 为节点 i 的深度
 
 vector<int> depth(n);
-// ups[i][j] 
+// ups[i][j]
 // ups 第二维的大小 m 为倍增表中 2 的最大幂次，一般设为 floor(log2(n)) + 1
 vector<vector<int>> ups;
 
@@ -42,7 +42,7 @@ void build(int u, int father, int depth)
 {
     depths[u] = depth;
     ups[u][0] = father;
-    for (int i = 1; i < m; ++i) 
+    for (int i = 1; i < m; ++i)
     {
         ups[u][i] = ups[ups[u][i - 1]][i - 1];
     }
