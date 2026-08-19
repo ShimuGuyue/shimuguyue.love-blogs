@@ -2,8 +2,8 @@
 title: 最近公共祖先
 description: 查询树上任意两点公共祖先中的最近节点
 category: 数据结构和算法
-tags: [倍增, 图论, 最近公共祖先, 树论, LCA]
-update_time: 2026-08-12
+tags: [LCA, 倍增, 图论, 最近公共祖先, 树论]
+update_time: 2026-08-19
 file_path: Algorithm-and-DataStructure/LCA
 ---
 
@@ -102,4 +102,3 @@ int calc(int u, int v)
 ```
 
 倍增法求最近公共祖先的时间复杂度为 $O(\log_2 n)$，额外空间复杂度为 $O(n \log_2 n)$。
-
