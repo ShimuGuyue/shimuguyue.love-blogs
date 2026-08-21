@@ -1,10 +1,10 @@
 ---
-title: 埃式筛筛质数
+title: 埃式筛
 description: 小范围质数筛法
 category: 数论
 tags: [埃式筛, 筛法, 质数, 质数筛]
 update_time: 2026-08-19
-file_path: NumberTheory/Sieve-of-Eratosthenes-for-Primes
+file_path: NumberTheory/Sieve-of-Eratosthenes
 ---
 
 # 埃式筛
