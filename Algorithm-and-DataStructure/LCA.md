@@ -3,7 +3,7 @@ title: 最近公共祖先
 description: 查询树上任意两点公共祖先中的最近节点
 category: 数据结构和算法
 tags: [LCA, 倍增, 图论, 最近公共祖先, 树论]
-update_time: 2026-08-19
+update_time: 2026-08-28
 file_path: Algorithm-and-DataStructure/LCA
 ---
 
@@ -26,7 +26,7 @@ file_path: Algorithm-and-DataStructure/LCA
 首先要预处理出从每个节点出发向上爬升 $2$ 的若干次幂次之后可到达的祖先节点。
 
 
-对于数组 `ups`，`ups[i][j]`表示从第 $i$ 个节点向上爬升 $2$ 的 $j$ 次幂到达的祖先节点，其中 $j$ 能取到的最大值为 $\lfloor \log_2(depth_max - 1) \rfloor$。方便起见第二维长度 $m$ 一般取 $\lfloor \log_2(n) \rfloor + 1$。
+对于数组 `ups`，`ups[i][j]`表示从第 $i$ 个节点向上爬升 $2$ 的 $j$ 次幂到达的祖先节点，其中 $j$ 能取到的最大值为 $\lfloor \log_2 (depth_{max} - 1) \rfloor$。方便起见第二维长度 $m$ 一般取 $\lfloor \log_2 n \rfloor + 1$。
 
 处理过程中，若每个节点的**深度信息**尚不得知，可一并处理。
 
@@ -101,4 +101,4 @@ int calc(int u, int v)
 }
 ```
 
-倍增法求最近公共祖先的时间复杂度为 $O(\log_2 n)$，额外空间复杂度为 $O(n \log_2 n)$。
+倍增法求最近公共祖先的时间复杂度为 $O(\log n)$，额外空间复杂度为 $O(n \log n)$。
