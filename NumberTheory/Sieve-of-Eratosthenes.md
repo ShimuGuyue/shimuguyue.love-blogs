@@ -1,10 +1,10 @@
 ---
-title: 埃式筛筛质数
+title: 埃式筛
 description: 小范围质数筛法
 category: 数论
 tags: [埃式筛, 筛法, 质数, 质数筛]
-update_time: 2026-08-19
-file_path: NumberTheory/Sieve-of-Eratosthenes-for-Primes
+update_time: 2026-08-28
+file_path: NumberTheory/Sieve-of-Eratosthenes
 ---
 
 # 埃式筛
@@ -15,7 +15,7 @@ file_path: NumberTheory/Sieve-of-Eratosthenes-for-Primes
 
 如果有一个数在遍历过程中没有被标记为合数，说明比他小的数里面没有他的因数，这个数是质数。
 
-根据梅滕斯第二定理，该算法的时间复杂度为 $O(n \ln \ln n)$，稍逊于线性筛的 $O(n)$，但在 $10 ^ 7$ 数据范围内差距很小，且代码量更简短。
+根据梅滕斯第二定理，该算法的时间复杂度为 $O(n \log \log n)$，稍逊于线性筛的 $O(n)$，但在 $10 ^ 7$ 数据范围内差距很小，且代码量更简短。
 
 **优化一**：对于任意 $a \times b = c,\ a > b$，在 $c$ 被 $a$ 标记之前一定已经被 $b$ 标记过，因此遍历 $a$ 的倍数时从 $a ^ 2$ 开始即可。
 
