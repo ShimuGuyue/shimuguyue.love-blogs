@@ -3,7 +3,7 @@ title: 二分图染色
 description: 染色法判定二分图
 category: 数据结构和算法
 tags: [DFS-BFS, 二分图, 二分图染色, 图论]
-update_time: 2026-08-19
+update_time: 2026-08-28
 file_path: Algorithm-and-DataStructure/BipartiteColoring
 ---
 
@@ -20,6 +20,8 @@ file_path: Algorithm-and-DataStructure/BipartiteColoring
 >   根据二分图相邻节点颜色不同的性质可知，当图中存在**长度为奇数的环**时，一定会发生冲突；若图中只存在偶数长度的环或者不存在环时，一定不会发生冲突。
 >
 >   图中不存在奇数环和图是二分图互为**充要条件**。
+
+整个判断过程需要遍历所有的点和边，故时间复杂度为 $O(n + m)$。
 
 ```cpp
 auto judge() -> bool
