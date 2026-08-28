@@ -4,7 +4,7 @@ description: 查询树上任意两点公共祖先中的最近节点
 category: 图论
 tags: [LCA, 倍增, 最近公共祖先, 树论]
 update_time: 2026-08-28
-file_path: Algorithm-and-DataStructure/LCA
+file_path: GraphTheory/LCA
 ---
 
 # 最近公共祖先
