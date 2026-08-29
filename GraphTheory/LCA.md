@@ -3,7 +3,7 @@ title: 最近公共祖先
 description: 查询树上任意两点公共祖先中的最近节点
 category: 图论
 tags: [LCA, 倍增, 最近公共祖先, 树论]
-update_time: 2026-08-28
+update_time: 2026-08-29
 file_path: GraphTheory/LCA
 ---
 
@@ -26,16 +26,17 @@ file_path: GraphTheory/LCA
 首先要预处理出从每个节点出发向上爬升 $2$ 的若干次幂次之后可到达的祖先节点。
 
 
-对于数组 `ups`，`ups[i][j]`表示从第 $i$ 个节点向上爬升 $2$ 的 $j$ 次幂到达的祖先节点，其中 $j$ 能取到的最大值为 $\lfloor \log_2 (depth_{max} - 1) \rfloor$。方便起见第二维长度 $m$ 一般取 $\lfloor \log_2 n \rfloor + 1$。
+对于数组 `ups`，`ups[i][j]` 表示从第 $i$ 个节点向上爬升 $2$ 的 $j$ 次幂到达的祖先节点，其中 $j$ 能取到的最大值为 $\lfloor \log_2 (depth_{max} - 1) \rfloor$。方便起见第二维长度 $m$ 一般取 $\lfloor \log_2 n \rfloor + 1$。
 
 处理过程中，若每个节点的**深度信息**尚不得知，可一并处理。
 
 ```cpp
 // depth[i] 为节点 i 的深度
-
 vector<int> depth(n);
 // ups[i][j]
-// ups 第二维的大小 m 为倍增表中 2 的最大幂次，一般设为 floor(log2(n)) + 1
+// ups 第二维的大小 m 为倍增表中 2 的最大幂次，
+// 一般设为 floor(log2(n)) + 1，
+// 或直接设为 30 覆盖 1e9 范围内
 vector<vector<int>> ups;
 
 void build(int u, int father, int depth)
