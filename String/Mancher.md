@@ -2,7 +2,7 @@
 title: Manacher
 description: 查询整个字符串的所有回文子串
 category: 字符串
-tags: [字符串, 回文, Manacher]
+tags: [Manacher, 回文]
 update_time: 2026-08-29
 file_path: String/Mancher
 ---
