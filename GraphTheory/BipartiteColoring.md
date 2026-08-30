@@ -3,7 +3,7 @@ title: 二分图染色
 description: 染色法判定二分图
 category: 图论
 tags: [DFS-BFS, 二分图, 二分图染色]
-update_time: 2026-08-28
+update_time: 2026-08-29
 file_path: GraphTheory/BipartiteColoring
 ---
 
@@ -24,7 +24,7 @@ file_path: GraphTheory/BipartiteColoring
 整个判断过程需要遍历所有的点和边，故时间复杂度为 $O(n + m)$。
 
 ```cpp
-auto judge() -> bool
+bool judge()
 {
     vector<int> colors(n);
     queue<int> q;
