@@ -2,7 +2,7 @@
 title: 树状数组
 description: 可修改的高阶前缀和
 category: 数据结构
-tags: [树状数组, 倍增, 二进制索引树, 前缀和]
+tags: [二进制索引树, 倍增, 前缀和, 树状数组]
 update_time: 2026-08-30
 file_path: DataStructure/BinaryIndexedTree
 ---
@@ -117,8 +117,8 @@ void update(int index, int data)
 $$
 \begin{aligned}
 
-\because   pre(n) &= \sum_{i = 1}^{n} a_n = a_1 + a_2 + \cdots + a_n,\\
-              a_n &= \sum_{i = 1}^{n} dif(n),\\
+\because   pre(n) &= \sum_{i = 1}^{n} a_i = a_1 + a_2 + \cdots + a_n,\\
+              a_i &= \sum_{j = 1}^{i} dif(j),\\
 \therefore pre(n) &= \sum_{i = 1}^{n} \sum_{j = 1}^{i} dif(j)\\
                   &= \sum_{i = 1}^{n} dif(i) \times (n - i + 1)\\
                   &= \sum_{i = 1}^{n} dif(i) \times n + \sum_{i = 1}^{n} dif(i) \times (i - 1).
