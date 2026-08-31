@@ -2,7 +2,7 @@
 title: ST表
 description: 区间可重复贡献快速询问
 category: 数据结构
-tags: [倍增, ST表]
+tags: [ST表, 倍增, 区间问题]
 update_time: 2026-08-29
 file_path: DataStructure/SparseTable
 ---
