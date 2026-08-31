@@ -2,7 +2,7 @@
 title: 树状数组
 description: 可修改的高阶前缀和
 category: 数据结构
-tags: [二进制索引树, 倍增, 前缀和, 树状数组, 二进制]
+tags: [二进制, 二进制索引树, 倍增, 前缀和, 树状数组, 区间问题]
 update_time: 2026-08-30
 file_path: DataStructure/BinaryIndexedTree
 ---
