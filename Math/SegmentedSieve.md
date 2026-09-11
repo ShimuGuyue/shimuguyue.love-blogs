@@ -1,8 +1,8 @@
 ---
-title: 指数的分段筛法
+title: 质数的分段筛法
 description: 分段二次筛取较大范围内小区间质数筛法
 category: 数学
-tags: [数论, 二次筛法, 分段筛法, 埃式筛, 筛法, 质数, 质数筛]
+tags: [二次筛法, 分段筛法, 埃式筛, 数论, 筛法, 质数, 质数筛]
 update_time: 2026-09-02
 file_path: Math/SegmentedSieve
 ---

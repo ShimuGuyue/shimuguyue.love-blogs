@@ -1,5 +1,5 @@
 ---
-title: 埃式筛
+title: 质数的埃式筛法
 description: 小范围快速筛取所有质数
 category: 数学
 tags: [埃式筛, 数论, 筛法, 质数, 质数筛]

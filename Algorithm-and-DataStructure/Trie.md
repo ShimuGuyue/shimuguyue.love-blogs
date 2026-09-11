@@ -1,10 +1,10 @@
 ---
 title: 字典树
 description: 字符串集合字典维护结构
-category: 字符串
-tags: [树, 前缀, 字典树, 前缀树, Trie]
+category: 算法和数据结构
+tags: [Trie, 前缀, 前缀树, 字典树, 树, 字符串, 数据结构]
 update_time: 2026-08-28
-file_path: String/Trie
+file_path: Algorithm-and-DataStructure/Trie
 ---
 
 # 字典树
