@@ -1,10 +1,10 @@
 ---
 title: Lowbit
 description: 正整数二进制为一的最小位大小
-category: 二进制
+category: 算法和数据结构
 tags: [Lowbit, 二进制]
 update_time: 2026-08-30
-file_path: Binary/Lowbit
+file_path: Algorithm-and-DataStructure/Lowbit
 ---
 
 # Lowbit
