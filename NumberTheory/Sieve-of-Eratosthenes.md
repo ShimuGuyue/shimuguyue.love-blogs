@@ -1,5 +1,5 @@
 ---
-title: 埃式筛
+title: 埃式筛筛质数
 description: 小范围质数筛法
 category: 数论
 tags: [埃式筛, 筛法, 质数, 质数筛]
