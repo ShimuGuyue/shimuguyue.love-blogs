@@ -1,8 +1,8 @@
 ---
 title: 拓展域并查集
 description: 维护多种集合关系的高阶并查集
-category: Algorithm-and-DataStructure
-tags: [数据结构, 关系并查集, 并查集, 拓展域并查集, 集合]
+category: 算法和数据结构
+tags: [关系并查集, 并查集, 拓展域并查集, 数据结构, 集合]
 update_time: 2026-08-28
 file_path: Algorithm-and-DataStructure/DisjointSet-with-ExtendedDomain
 ---
