@@ -1,10 +1,10 @@
 ---
 title: Manacher
 description: 查询整个字符串的所有回文子串
-category: 字符串
-tags: [Manacher, 回文]
+category: 算法和数据结构
+tags: [字符串, Manacher, 回文]
 update_time: 2026-08-29
-file_path: String/Mancher
+file_path: Algorithm-and-DataStructure/Mancher
 ---
 
 # Manacher
