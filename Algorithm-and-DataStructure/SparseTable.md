@@ -1,10 +1,10 @@
 ---
 title: ST表
 description: 区间可重复贡献快速询问
-category: 数据结构
-tags: [ST表, 倍增, 区间问题]
+category: 算法和数据结构
+tags: [ST表, 倍增, 区间问题, 数据结构]
 update_time: 2026-08-29
-file_path: DataStructure/SparseTable
+file_path: Algorithm-and-DataStructure/SparseTable
 ---
 
 # ST 表

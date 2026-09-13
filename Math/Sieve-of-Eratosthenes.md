@@ -1,10 +1,10 @@
 ---
-title: 埃式筛筛质数
-description: 小范围质数筛法
-category: 数论
-tags: [埃式筛, 筛法, 质数, 质数筛]
+title: 质数的埃式筛法
+description: 小范围快速筛取所有质数
+category: 数学
+tags: [埃式筛法, 数论, 筛法, 质数, 质数筛]
 update_time: 2026-08-28
-file_path: NumberTheory/Sieve-of-Eratosthenes
+file_path: Math/Sieve-of-Eratosthenes
 ---
 
 # 埃式筛

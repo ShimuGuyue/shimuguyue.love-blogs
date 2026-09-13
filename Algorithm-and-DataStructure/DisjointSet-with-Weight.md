@@ -1,10 +1,10 @@
 ---
 title: 带权并查集
 description: 额外维护节点间权值关系的高级并查集
-category: 数据结构
-tags: [集合, 并查集, 带权并查集, 权值]
+category: 算法和数据结构
+tags: [带权并查集, 并查集, 权值, 集合, 数据结构]
 update_time: 2026-08-28
-file_path: DataStructure/DisjointSet-with-Weight
+file_path: Algorithm-and-DataStructure/DisjointSet-with-Weight
 ---
 
 # 带权并查集
