@@ -1,9 +1,9 @@
 ---
 title: ST表
 description: 区间可重复贡献快速询问
-category: 算法和数据结构
+categories: [算法和数据结构]
 tags: [ST表, 倍增, 区间问题, 数据结构]
-update_time: 2026-08-29
+update_time: 2026-10-03
 file_path: Algorithm-and-DataStructure/SparseTable
 ---
 
@@ -22,7 +22,8 @@ ST 表的第一维长度 $n$ 即为序列的长度，第二维的长度 $m$ 根�
 初始时将所有 `st[i][0]` 赋值为序列中第 $i$ 个位置的单独贡献，表示从 $i$ 到 $i$ 长度为 $1$ 的区间。
 
 ```cpp
-vector<vector<int>> st(n, int(log2(n)) + 1);
+int m = log2(n) + 1;
+vector<vector<int>> st(n, vector<int>(m));
 
 for (int i = 0; i < n; ++i)
 {
@@ -58,7 +59,7 @@ int query(int l, int r)
 {
     int power = log2(r - l + 1);
     int len = 1 << power;
-    return max(st[i][j - 1], st[i + len][j - 1])
+    return max(st[l][power], st[r - len + 1][power])
 }
 ```
 
