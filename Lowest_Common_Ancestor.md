@@ -1,10 +1,10 @@
 ---
 title: 最近公共祖先
 description: 查询树上任意两点公共祖先中的最近节点
-categories: [算法和数据结构]
-tags: [LCA, 倍增, 最近公共祖先, 树, 图论]
+categories: [计算机算法]
+tags: [倍增, 图论, 树]
 update_time: 2026-08-29
-file_name: LCA
+file_name: Lowest_Common_Ancestor
 ---
 
 # 最近公共祖先
