@@ -1,8 +1,8 @@
 ---
 title: Lowbit
 description: 正整数二进制为一的最小位大小
-categories: [算法和数据结构]
-tags: [Lowbit, 二进制]
+categories: [计算机算法]
+tags: [二进制]
 update_time: 2026-08-30
 file_name: Lowbit
 ---
