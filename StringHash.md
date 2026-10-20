@@ -4,7 +4,7 @@ description: 字符串的哈希算法
 category: 算法和数据结构
 tags: [哈希, 字符串哈希, 字符串]
 update_time: 2026-08-28
-file_path: Algorithm-and-DataStructure/StringHash
+file_name: StringHash
 ---
 
 # 字符串哈希

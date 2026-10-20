@@ -4,7 +4,7 @@ description: 可修改的高阶前缀和
 category: 算法和数据结构
 tags: [二进制, 二进制索引树, 倍增, 前缀和, 区间问题, 树状数组, 数据结构]
 update_time: 2026-08-30
-file_path: Algorithm-and-DataStructure/BinaryIndexedTree
+file_name: BinaryIndexedTree
 ---
 
 # 树状数组

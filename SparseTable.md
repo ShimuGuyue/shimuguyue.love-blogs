@@ -4,7 +4,7 @@ description: 区间可重复贡献快速询问
 categories: [算法和数据结构]
 tags: [ST表, 倍增, 区间问题, 数据结构]
 update_time: 2026-10-03
-file_path: Algorithm-and-DataStructure/SparseTable
+file_name: SparseTable
 ---
 
 # ST 表

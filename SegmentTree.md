@@ -4,7 +4,7 @@ description: 可汇总信息的区间维护结构
 category: 算法和数据结构
 tags: [区间问题, 树, 线段树, 数据结构]
 update_time: 2026-08-31
-file_path: Algorithm-and-DataStructure/SegmentTree
+file_name: SegmentTree
 ---
 
 # 线段树
