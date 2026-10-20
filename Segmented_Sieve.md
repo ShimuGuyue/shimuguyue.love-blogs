@@ -1,10 +1,10 @@
 ---
 title: 质数的分段筛法
-description: 分段二次筛取较大范围内小区间质数筛法
+description: 对较大数据范围内较小区间的质数筛法
 categories: [数学]
-tags: [二次筛法, 分段筛法, 埃式筛法, 数论, 筛法, 质数, 质数筛]
+tags: [数论, 筛法, 质数]
 update_time: 2026-09-02
-file_name: SegmentedSieve
+file_name: Segmented_Sieve
 ---
 
 # 分段筛法

@@ -1,8 +1,8 @@
 ---
 title: 线段树
 description: 可汇总信息的区间维护结构
-categories: [算法和数据结构]
-tags: [区间问题, 树, 线段树, 数据结构]
+categories: [数据结构]
+tags: [区间问题, 树, 线段树]
 update_time: 2026-08-31
 file_name: SegmentTree
 ---
