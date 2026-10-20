@@ -1,8 +1,8 @@
 ---
 title: KMP
 description: 根据模式串前缀信息在文本串中快速检索
-categories: [算法和数据结构]
-tags: [KMP, 前缀, 字符串, 字符串匹配, 有限状态自动机]
+categories: [计算机算法]
+tags: [前缀, 字符串, 子串匹配]
 update_time: 2026-08-29
 file_name: KMP
 ---
