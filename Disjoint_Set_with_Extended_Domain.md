@@ -1,10 +1,10 @@
 ---
 title: 拓展域并查集
 description: 维护多种集合关系的高阶并查集
-categories: [算法和数据结构]
-tags: [关系并查集, 并查集, 拓展域并查集, 数据结构, 集合]
+categories: [数据结构]
+tags: [并查集, 集合]
 update_time: 2026-08-28
-file_name: DisjointSetwithExtendedDomain
+file_name: Disjoint_Set_with_Extended_Domain
 ---
 
 # 拓展域并查集
