@@ -1,10 +1,10 @@
 ---
 title: ST表
 description: 区间可重复贡献快速询问
-categories: [算法和数据结构]
-tags: [ST表, 倍增, 区间问题, 数据结构]
+categories: [数据结构]
+tags: [倍增, 区间问题]
 update_time: 2026-10-03
-file_name: SparseTable
+file_name: Sparse_Table
 ---
 
 # ST 表
