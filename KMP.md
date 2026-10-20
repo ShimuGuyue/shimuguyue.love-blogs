@@ -4,7 +4,7 @@ description: 根据模式串前缀信息在文本串中快速检索
 category: 算法和数据结构
 tags: [KMP, 前缀, 字符串, 字符串匹配, 有限状态自动机]
 update_time: 2026-08-29
-file_path: Algorithm-and-DataStructure/KMP
+file_name: KMP
 ---
 
 # KMP
