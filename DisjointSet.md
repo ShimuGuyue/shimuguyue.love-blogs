@@ -1,7 +1,7 @@
 ---
 title: 并查集
 description: 不相交集合的关系维护
-category: 算法和数据结构
+categories: [算法和数据结构]
 tags: [并查集, 集合, 数据结构]
 update_time: 2026-08-28
 file_name: DisjointSet

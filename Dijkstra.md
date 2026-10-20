@@ -1,7 +1,7 @@
 ---
 title: Dijkstra
 description: 无负权图的单源最短路径算法
-category: 算法和数据结构
+categories: [算法和数据结构]
 tags: [图论, Dijkstra, 单源最短路, 最短路径, 贪心]
 update_time: 2026-08-28
 file_name: Dijkstra
