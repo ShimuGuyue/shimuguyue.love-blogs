@@ -1,10 +1,10 @@
 ---
 title: 二分图染色
 description: 染色法判定二分图
-categories: [算法和数据结构]
-tags: [DFS-BFS, 二分图, 二分图染色, 图论]
+categories: [计算机算法]
+tags: [DFS-BFS, 图论, 二分图]
 update_time: 2026-08-29
-file_name: BipartiteColoring
+file_name: Bipartite_Staining
 ---
 
 # 二分图染色
