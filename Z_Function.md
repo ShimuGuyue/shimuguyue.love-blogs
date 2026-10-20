@@ -1,10 +1,10 @@
 ---
 title: Z函数
 description: 字符串与其的各后缀串的最长相等前缀
-categories: [算法和数据结构]
-tags: [Z函数, 前缀, 字符串, 字符串匹配, 后缀]
+categories: [计算机算法]
+tags: [前缀, 后缀, 子串匹配]
 update_time: 2026-08-29
-file_name: ZFunction
+file_name: Z_Function
 ---
 
 # Z 函数
