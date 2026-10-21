@@ -2,7 +2,7 @@
 title: 回文自动机
 description: 以字典的形式记录字符串中所有回文子串的回文信息。
 categories: [数据结构]
-tags: [字符串, 回文, 树, 自动机]
+tags: [回文, 字符串, 树, 自动机, 字典]
 update_time: 2026-10-19
 file_name: Palindrome_Automaton
 ---
